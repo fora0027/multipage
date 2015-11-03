@@ -1,0 +1,36 @@
+html{
+    background: #fab12b;
+}
+body{
+    background: #fab12b;
+}
+.container{
+    background: white;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 15px 15px 31px #5d5d5d;
+}
+.navbar{
+    background: none;
+    border: none;
+}
+.list1Items ul li{
+    border: 2px dashed black;
+    margin: 1% 0;
+    padding: 10px;
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+}
+input{
+    display: block;
+    margin: 0 auto;
+}
+button, submit{
+    background: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px #5d5d5d;
+}

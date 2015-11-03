@@ -1,0 +1,22 @@
+<!-- Main component for a primary marketing message or call to action -->
+<div class="container">
+    <div class="list1">
+        <h1>To Do List 3:</h1>
+        <div class="addItem">
+            <form ng-submit="addItem()" name="addBox" class="addBox">
+                <input ng-model="list1Input" class="list1Input" type="text" name="addItem" value="New Item">
+                <input type="submit" value="Add">
+            </form>
+        </div>
+        <div class="list1Items">
+            <ul>
+                <li ng-repeat="list in list1">{{list}}
+                    <form name="deleteButton">
+                        <button ng-click="remove(list)" class="dButton" type="button" name="removeItem">Finished!</button>
+                    </form>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
